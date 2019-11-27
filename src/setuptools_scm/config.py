@@ -7,7 +7,7 @@ import warnings
 from .utils import trace
 
 DEFAULT_TAG_REGEX = r"^(?:[\w-]+-)?(?P<version>[vV]?\d+(?:\.\d+){0,2}[^\+]+)(?:\+.*)?$"
-DEFAULT_VERSION_SCHEME = "version_scheme"
+DEFAULT_VERSION_SCHEME = "guess-next-dev"
 
 
 def _check_tag_regex(value):
